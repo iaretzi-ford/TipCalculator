@@ -1,10 +1,3 @@
-<head>
-<ul>
-  <li><a href="Home.asp">Home</a></li>
-  <li><a href="About.asp">About</a></li>
-  <li><a href="Contact.asp">Contact</a></li>
-  <li><a href="tipcalculator.asp">tipcalculator</a></li>
-  <style>
   h1 {font-size: 36px;line-height: 45px}
   h2 {font-size: 28px;line-height: 45px}
   h3 {font-size: 21px;line-height: 45px}
@@ -13,14 +6,10 @@
   body {font-family: Helvetica, arial}
   body {font-size: 21px}
   fixed-footer {bottom: 0}
-  </style>
-</head>
-@media only screen and (max width: 480px) {body {background-color: inherit;}}
-@media only screen and (max width: 992px) {body {background-color: inherit;}}
+@media only screen and (max-width: 480px) {body {background-color: green;}}
+@media only screen and (max-width: 992px) {body {background-color: purple;}}
 h1 {font-size: 18; line-height: 45px}
-<style>
 .img-responsive {max-width: 100%}
-<form action=footer>
   input[type=text], select {
   width: 100%;
   padding: 18px 20px;
